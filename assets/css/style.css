@@ -73,3 +73,65 @@
   outline: none;
   box-shadow: none;
 }
+/* CONTENT */
+.glassmorphism-content {
+  /* background-color: rgba(255, 255, 255, 0.09);
+  box-shadow: 0 0 10px red; */
+  height: 18rem;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  overflow: hidden;
+}
+.glassmorphism-content h1 {
+  font-family: "Audiowide", sans-serif;
+  color: #fdc112;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* LOGIN FORM */
+.glassmorphism-login {
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px #000;
+  height: 23rem;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  overflow: hidden;
+}
+.glassmorphism-login label {
+  color: #fdc112;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+.glassmorphism-login input {
+  background-color: transparent;
+  padding: 0.75rem;
+}
+.glassmorphism-login input::placeholder {
+  background-color: transparent;
+  color: white;
+  opacity: 0.5;
+}
+.glassmorphism-login input:focus {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid #fdc112;
+}
+.btn-style {
+  background-color: transparent;
+  padding: 0.75rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid white;
+}
+.btn-style:hover {
+  background-color: transparent;
+  color: #fdc112;
+  border: 1px solid #fdc112;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
