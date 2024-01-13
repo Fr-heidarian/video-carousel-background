@@ -48,8 +48,9 @@
                             <a href=""><i class="bi bi-whatsapp"></i></a>
                             <a href=""><i class="bi bi-twitter"></i></a>
                         </div>
-                        <div class="button btn bg-transparent border border-warning rounded-0 px-3 py-1 text-warning ">
-                            LOGIN</div>
+                        <button button class="btn bg-transparent border border-warning rounded-0 px-3 py-1 text-warning"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            LOGIN</button>
                     </div>
                 </div>
             </nav>
@@ -117,8 +118,46 @@
                         dolor, sit amet consectetur adipisicing elit Earum ipsa dicta.</p>
                 </div>
             </div>
-            <div class="col-md-4 glassmorphism-login  p-3 px-4">
-                <form>
+            <div class="col-md-4 p-3 px-4">
+                <!-- Modal LOGIN FORM-->
+                <div class="modal fade" class="p-0" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog me-5 mt-5">
+                        <div class="modal-content bg-muted glassmorphism-login-modal rounded-0">
+                            <div class="modal-header border-bottom-0">
+                                <h1 class="modal-title fs-5 text-warning text-center" id="exampleModalLabel">LOGIN FORM
+                                </h1>
+                                <button type="button" class="btn-close bg-warning" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body p-0 bg-transparent">
+                                <div class="glassmorphism-login bg-transparent px-4">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="username" class="form-label">Username</label>
+                                            <input type="text" class="form-control rounded-0" id="username"
+                                                placeholder="Enter your username">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="password" class="form-label">Password</label>
+                                            <input type="password" class="form-control rounded-0" id="password"
+                                                placeholder="Enter your password">
+                                        </div>
+                                        <div class="d-grid gap-2  mb-3">
+                                            <button type="submit" class="btn btn-style rounded-0">Log In</button>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="#" class="text-decoration-none text-white fs-6 me-5">Sign up</a> |
+                                            <a href="#" class="text-decoration-none text-white fs-6 ms-3">Forgot
+                                                password ?</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <form>
                     <div class="mb-3">
                         <label for="username" class="form-label">Username</label>
                         <input type="text" class="form-control rounded-0" id="username"
@@ -136,11 +175,16 @@
                         <a href="#" class="text-decoration-none text-white fs-6 me-5">Sign up</a> |
                         <a href="#" class="text-decoration-none text-white fs-6 ms-3">Forgot password ?</a>
                     </div>
-                </form>
+                </form> -->
             </div>
         </div>
     </section>
     <!-- HERO SECTION ENDS -->
+
+
+
+
+
 
 
     <!-- Bootstrap -->

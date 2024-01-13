@@ -99,6 +99,15 @@
   line-height: 2.25rem;
   overflow: hidden;
 }
+.glassmorphism-login-modal {
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px #000;
+  height: 26rem;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  overflow: hidden;
+}
+
 .glassmorphism-login label {
   color: #fdc112;
   font-weight: bold;
